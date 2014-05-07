@@ -71,10 +71,6 @@ ifeq ($(NO_FALLBACK_FONT),true)
         LOCAL_CFLAGS += -DNO_FALLBACK_FONT
 endif
 
-LOCAL_LDLIBS += -lpthread
-
 LOCAL_MODULE:= libharfbuzz
-
-
 
 include $(BUILD_SHARED_LIBRARY)

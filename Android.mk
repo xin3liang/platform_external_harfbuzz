@@ -64,7 +64,7 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_C_INCLUDES += \
         $(LOCAL_PATH)/src \
         $(LOCAL_PATH)/src/contrib \
-        external/icu4c/common \
+        external/icu/icu4c/source/common \
         external/freetype/include
 
 ifeq ($(NO_FALLBACK_FONT),true)
